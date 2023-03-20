@@ -12,7 +12,7 @@ import 'package:hello_world/main.dart';
 
 
 void main() {
-  testWidgets('Text is already displayed', (WidgetTester tester) async {
+  testWidgets('Test Case expects "Hello World" !', (WidgetTester tester) async {
     await tester.pumpWidget(GeeksForGeeks());
     expect(find.text('Hello World'), findsOneWidget);
   });
